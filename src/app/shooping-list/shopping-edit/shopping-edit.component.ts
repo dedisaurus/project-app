@@ -24,7 +24,7 @@ export class ShoppingEditComponent implements OnInit {
   @ViewChild('amountInput') amountInputRef: ElementRef
   // @Output() ingredientAdded = new EventEmitter<ingredients>();
   constructor(private slService: shoppingListService) {
-    
+     
   }
 
   ngOnInit() {}
